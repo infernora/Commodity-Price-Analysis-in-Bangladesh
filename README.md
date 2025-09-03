@@ -1,4 +1,4 @@
-# 📈 Essential Commodity Price Analysis – Bangladesh  
+#  Essential Commodity Price Analysis – Bangladesh  
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)](https://www.python.org/)  
 [![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellow?logo=pandas)](https://pandas.pydata.org/)  
@@ -32,7 +32,7 @@ I analyzed historical food price data (2000–2024) to uncover long-term trends,
 - Removed wholesale entries, kept retail only.  
 - Selected essential columns (`date`, `division`, `category`, `commodity`, `unit_price`).  
 
-### Commodity Grouping  
+###  Commodity Grouping  
 - Grouped multiple varieties into **Rice, Wheat, Lentils, Oil**.  
 
 ### Price Trend Analysis  
@@ -55,9 +55,9 @@ I analyzed historical food price data (2000–2024) to uncover long-term trends,
 ---
 
 ##  What I Learned  
-✔️ Data cleaning & normalization is crucial before analysis.  
-✔️ Aggregating time-series data helps identify long-term trends.  
-✔️ Visualizations (heatmaps, boxplots, rolling correlations) are powerful for insights.  
-✔️ SARIMA models can forecast commodity prices effectively.  
-✔️ Commodity markets in Bangladesh show both global influences (crises) and regional differences.  
+ Data cleaning & normalization using pandas.  
+ Aggregating time-series data to identify long-term trends.  
+ Visualizations (heatmaps, boxplots, rolling correlations).  
+ SARIMA models can forecast commodity prices effectively.  
+ Commodity markets in Bangladesh show both global influences (crises) and regional differences.  
 
